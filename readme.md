@@ -29,6 +29,5 @@ go build -o netnsrun main.go
 sudo ./netnsrun "你的命令"
 
 # 根据原始pid可以查找运行进程
-```bash
 pstree -pl |grep -A5 原始pid
 ```
